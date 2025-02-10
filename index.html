@@ -8,12 +8,28 @@
 </head>
 <body>
 
-    <div class= "container">
-        <h1>Generador Fibonacci</h1>
-        <label for="numberInput">Ingresa un número:</label>
-        <input type="text" id="numberInput" placeholder="Ej: 8">
-        <button id="generateButton">Generar Secuencia</button>
-        <div id="result"></div>
+    <div class="window">
+        <div class="title-bar">
+            <div class="title-buttons">
+                <span class="button close"></span>
+                <span class="button minimize"></span>
+                <span class="button maximize"></span>
+            </div>
+            <span class="title">Generador de Fibonacci</span>
+        </div>
+        <div class="content">
+            <label for="numberInput">
+                <i class="fas fa-calculator"></i> Ingresa un número:
+            </label>
+            <input type="text" id="numberInput" placeholder="Ej: 8">
+            <button id="generateButton">
+                <i class="fas fa-play"></i> Generar Secuencia
+            </button>
+            <div id="result">
+                <i class="fas fa-spinner hidden"></i>
+                <span class="result-text"></span>
+            </div>
+        </div>
     </div>
 
 
