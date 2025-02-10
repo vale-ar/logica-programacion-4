@@ -1,4 +1,3 @@
-/* Estilo general */
 body {
     font-family: 'MS Sans Serif', sans-serif;
     background-color: #ffccf5;
@@ -9,7 +8,6 @@ body {
     margin: 0;
 }
 
-/* Ventana estilo Windows 98 */
 .window {
     background-color: #fff;
     border: 2px solid #000;
@@ -19,7 +17,6 @@ body {
     overflow: hidden;
 }
 
-/* Barra de título */
 .title-bar {
     background: linear-gradient(90deg, #ff69b4, #ff1493);
     padding: 8px;
@@ -60,7 +57,6 @@ body {
     font-size: 16px;
 }
 
-/* Contenido de la ventana */
 .content {
     padding: 20px;
     text-align: center;
@@ -103,7 +99,6 @@ button i {
     margin-right: 5px;
 }
 
-/* Resultado */
 #result {
     margin-top: 20px;
     font-size: 18px;
